@@ -5,8 +5,8 @@ public enum CoolingTypeEnum {
     HI_ACTIVE_COOLING(0, 45),
     MED_ACTIVE_COOLING(0, 40);
 
-    private final int upperLimit;
-    private final int lowerLimit;
+    int upperLimit;
+    int lowerLimit;
 
     CoolingTypeEnum(int lowerLimit, int upperLimit) {
         this.upperLimit = upperLimit;
