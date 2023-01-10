@@ -9,7 +9,7 @@ public enum CoolingTypeEnum {
      Integer lowerLimit = null;
      Integer upperLimit = null;
 
-	public ECoolingType(Integer lowerLimit, Integer upperLimit) {
+	public CoolingTypeEnum(Integer lowerLimit, Integer upperLimit) {
 		this.lowerLimit = lowerLimit;
 		this.upperLimit = upperLimit;
 	} 
