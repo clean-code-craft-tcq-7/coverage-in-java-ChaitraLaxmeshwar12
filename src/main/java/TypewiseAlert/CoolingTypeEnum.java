@@ -6,12 +6,12 @@ public enum CoolingTypeEnum {
      HI_ACTIVE_COOLING(0,45),
      MED_ACTIVE_COOLING(0,40)
 	     
-     Integer lowerLimit = null;
-     Integer upperLimit = null;
+     int lowerLimit = 0;
+     int upperLimit = 0;
 
-	public CoolingTypeEnum(Integer lowerLimit, Integer upperLimit) {
-		this.lowerLimit = lowerLimit;
-		this.upperLimit = upperLimit;
-	} 
+     CoolingTypeEnum(Integer lowerLimit, Integer upperLimit) {
+     this.lowerLimit = lowerLimit;
+     this.upperLimit = upperLimit;
+   } 
 
 }
